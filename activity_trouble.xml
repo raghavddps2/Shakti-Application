@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/images"
+    tools:context="com.example.android.shakti.trouble">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SOS Message"
+        android:textColor="#7E57C2"
+        android:padding="10dp"
+        android:onClick="SosMessage"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:background="#8BC34A"
+        />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Raise a Request"
+            android:onClick="RaiseRequest"
+            android:textColor="#7E57C2"
+            android:id="@+id/webview"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:background="#8BC34A"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Real time Location"
+        android:textColor="#7E57C2"
+        android:onClick="ShareRealLocation"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:background="#8BC34A"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Location on whatsapp"
+        android:textColor="#7E57C2"
+        android:padding="10dp"
+        android:onClick="shareWhatsappLocation"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:background="#8BC34A"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="These features will save you soon!"
+        android:textSize="24dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textColor="#304FFE"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dont't panic! You are a SuperWoman!!"
+        android:textSize="24dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_marginBottom="0dp"
+        android:paddingBottom="0dp"
+        android:textColor="#304FFE"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/image5"/>
+</LinearLayout>
